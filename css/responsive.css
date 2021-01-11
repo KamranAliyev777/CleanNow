@@ -1,0 +1,25 @@
+/*@media (max-width:800px){
+    .third_section_four,
+    .seventh_section_four,
+    .ten_senction_four{
+        display: block;
+    }
+}*/
+@media (max-width:800px){
+    .third_section_four{
+       display: block;
+    }
+    .third_section_middle{
+        float: left;
+        width:45%;
+    }
+}
+@media (max-width:300px){
+    .third_section_four{
+       display: block;
+    }
+    .third_section_middle{
+        float: left;
+        width:100%;
+    }
+}

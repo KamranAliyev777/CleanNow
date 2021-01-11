@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+ width:100%;
+ height:100%;
+}
+:after,
+:before{
+	box-sizing: border-box; 
+}
+ul li ,
+ol li{
+list-style-type: none;
+float: left;
+}
+a{
+    text-decoration: none;
+}
+a, span, label{
+    display: inline-block;
+}
+.center{
+    position: relative;
+    float:none;
+    margin:0 auto;
+}
+.ninth_center{
+    position: relative;
+    float: none;
+    margin:0 auto;
+}
+.full_width{
+    position: relative;
+    float: none;
+    width: 100%;
+}
+.full_height{
+    height: 100%;
+}
+select, input[type=radio], input[type=checkbox]{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
